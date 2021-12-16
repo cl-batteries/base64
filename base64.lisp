@@ -17,13 +17,13 @@
 ;;;; under the License.
 ;;;;
 
-(defpackage :cl-batteries/base64
+(defpackage :boost-base64
   (:use :cl)
   (:export
    #:base64-encode
    #:base64-decode))
 
-(in-package :cl-batteries/base64)
+(in-package :boost-base64)
 
 ;;; ----------------------------------------------------
 
